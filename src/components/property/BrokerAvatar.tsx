@@ -15,7 +15,7 @@ export function BrokerAvatar({ broker, className }: { broker: Broker; className?
       {broker.photo ? (
         <ResponsiveImage image={broker.photo} alt="" sizes="96px" className="size-full object-cover" />
       ) : (
-        <span aria-hidden="true" className="font-display text-[1.15em] text-graphite-600">
+        <span aria-hidden="true" className="font-editorial text-[1.15em] text-graphite-600">
           {getInitials(broker.name)}
         </span>
       )}

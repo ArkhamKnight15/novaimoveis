@@ -78,7 +78,7 @@ export function PropertyCard({
             Cód. {property.id} · {property.location.neighborhood}
           </p>
         </div>
-        <h3 className="font-display mt-2 text-[1.625rem] leading-tight">
+        <h3 className="font-editorial mt-2 text-[1.625rem] leading-tight">
           <Link
             to={href}
             className="outline-none after:absolute after:inset-0 after:content-[''] focus-visible:underline"
@@ -93,7 +93,7 @@ export function PropertyCard({
         <PropertySpecs property={property} className="mt-4" />
         <div className="mt-auto pt-5">
           <div className="flex items-end justify-between gap-4 border-t border-line pt-4">
-            <p className="font-display text-xl text-ink">{formatPrice(property.price, property.purpose)}</p>
+            <p className="font-editorial text-xl text-ink">{formatPrice(property.price, property.purpose)}</p>
             <span
               aria-hidden="true"
               className="flex size-9 items-center justify-center rounded-full border border-line text-ink transition-[background-color,border-color,color] duration-500 group-hover:border-ink group-hover:bg-ink group-hover:text-paper"

@@ -62,7 +62,7 @@ function KeyFacts({ property }: { property: Property }) {
       {facts.map((fact) => (
         <div key={fact.label} className="border-b border-r border-line px-5 py-5">
           <dt className="eyebrow text-[0.5625rem] text-graphite-500">{fact.label}</dt>
-          <dd className="font-display mt-2.5 text-xl text-ink">{fact.value}</dd>
+          <dd className="font-editorial mt-2.5 text-xl text-ink">{fact.value}</dd>
         </div>
       ))}
     </dl>
@@ -265,7 +265,7 @@ function PropertyDetails({ property }: { property: Property }) {
                 {property.location.neighborhood}, {property.location.city} – {property.location.state}
               </span>
               <span aria-hidden="true" className="hidden h-3 w-px bg-graphite-200 sm:block" />
-              <span>Cód. {property.id}</span>
+              <span className="font-mono">Cód. {property.id}</span>
             </p>
           </div>
           <div className="flex gap-2">
@@ -290,7 +290,7 @@ function PropertyDetails({ property }: { property: Property }) {
             </div>
 
             <Section id="sobre-imovel" title="Sobre o imóvel">
-              <p className="font-display text-2xl leading-snug text-graphite-700">{property.headline}.</p>
+              <p className="font-editorial text-2xl leading-snug text-graphite-700">{property.headline}.</p>
               <div className="mt-6 max-w-3xl space-y-5 text-[0.9375rem] leading-relaxed text-graphite-500 sm:text-base">
                 {property.description.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
@@ -439,7 +439,7 @@ function PropertyDetails({ property }: { property: Property }) {
           <div className="mx-auto flex max-w-xl items-center gap-3">
             <div className="min-w-0 flex-1">
               <p className="eyebrow text-[0.5625rem] text-graphite-500">{purpose.noun}</p>
-              <p className="font-display mt-1 whitespace-nowrap text-lg leading-tight text-ink">
+              <p className="font-editorial mt-1 whitespace-nowrap text-lg leading-tight text-ink">
                 {formatPrice(property.price, property.purpose)}
               </p>
             </div>

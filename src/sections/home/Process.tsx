@@ -45,7 +45,7 @@ export function Process() {
             >
               <span
                 className={cn(
-                  'font-display relative z-10 flex size-14 items-center justify-center rounded-full border text-xl transition-[background-color,border-color,color] duration-700',
+                  'font-mono relative z-10 flex size-14 items-center justify-center rounded-full border text-sm transition-[background-color,border-color,color] duration-700',
                   inView ? 'border-ink bg-ink text-paper' : 'border-graphite-300 bg-bone text-ink',
                 )}
                 style={{ transitionDelay: `${300 + index * 420}ms` }}
@@ -54,7 +54,7 @@ export function Process() {
                 <span className="sr-only">ª etapa</span>
               </span>
               <div className="lg:mt-10 lg:pr-6">
-                <h3 className="font-display text-3xl">{step.title}</h3>
+                <h3 className="font-editorial text-3xl">{step.title}</h3>
                 <p className="mt-3 max-w-xs text-[0.9375rem] leading-relaxed text-graphite-500">{step.description}</p>
               </div>
             </li>

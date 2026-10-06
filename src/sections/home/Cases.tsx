@@ -48,7 +48,7 @@ export function Cases() {
           </div>
           <div key={`${active.id}-text`} className="flex animate-page-in flex-col lg:col-span-4">
             <p className="eyebrow text-[0.625rem] text-gold-300">{active.category}</p>
-            <h3 className="font-display mt-4 text-3xl leading-tight text-white">{active.title}</h3>
+            <h3 className="font-editorial mt-4 text-3xl leading-tight text-white">{active.title}</h3>
             <p className="mt-2 text-sm text-white/55">{active.location}</p>
             <p className="mt-6 text-[0.9375rem] leading-relaxed text-white/70">{active.summary}</p>
 

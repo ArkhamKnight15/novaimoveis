@@ -81,7 +81,7 @@ export function LocationMap({ property }: { property: Property }) {
           <circle cx="400" cy="225" r="9" fill="#11100e" stroke="#fbfaf7" strokeWidth="4" />
         </svg>
         <div className="absolute left-4 top-4 bg-paper/95 px-4 py-3 shadow-panel">
-          <p className="font-display text-lg leading-none text-ink">{neighborhood}</p>
+          <p className="font-editorial text-lg leading-none text-ink">{neighborhood}</p>
           <p className="mt-1.5 text-[0.75rem] text-graphite-500">
             {city} – {state}
           </p>

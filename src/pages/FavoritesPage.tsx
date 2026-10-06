@@ -52,7 +52,7 @@ export function FavoritesPage() {
           <span className="flex size-16 items-center justify-center rounded-full border border-gold-400/60 text-gold-600">
             <Heart aria-hidden="true" className="size-6" strokeWidth={1.25} />
           </span>
-          <h2 className="font-display mt-6 text-3xl">Comece sua seleção</h2>
+          <h2 className="font-editorial mt-6 text-3xl">Comece sua seleção</h2>
           <p className="mt-4 text-[0.9375rem] leading-relaxed text-graphite-500">
             Toque no coração dos imóveis que chamarem sua atenção. Eles ficam guardados aqui para você comparar com
             calma.

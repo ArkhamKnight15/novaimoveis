@@ -54,7 +54,7 @@ export function WhyNova() {
               />
             ))}
             <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-ink/80 to-transparent p-6 pt-16">
-              <p className="font-display text-xl text-white">{current?.title}</p>
+              <p className="font-editorial text-xl text-white">{current?.title}</p>
               <p className="eyebrow text-[0.625rem] tabular-nums text-white/60">
                 {String(active + 1).padStart(2, '0')} / {String(differentials.length).padStart(2, '0')}
               </p>
@@ -73,7 +73,7 @@ export function WhyNova() {
               onPointerEnter={() => setActive(index)}
               className="grid grid-cols-[3rem_1fr] border-t border-white/10 py-10 last:border-b sm:grid-cols-[5rem_1fr] lg:py-16"
             >
-              <span aria-hidden="true" className="font-display pt-2 text-lg tabular-nums text-gold-300">
+              <span aria-hidden="true" className="font-mono pt-2 text-sm tabular-nums text-gold-300">
                 {String(index + 1).padStart(2, '0')}
               </span>
               <Reveal>

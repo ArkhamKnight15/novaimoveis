@@ -39,7 +39,7 @@ export function Accordion({ items, defaultOpen, className }: AccordionProps) {
               >
                 <span
                   className={cn(
-                    'font-display text-xl leading-snug transition-colors duration-300 sm:text-2xl',
+                    'font-editorial text-xl leading-snug transition-colors duration-300 sm:text-2xl',
                     open ? 'text-ink' : 'text-graphite-700 group-hover:text-ink',
                   )}
                 >

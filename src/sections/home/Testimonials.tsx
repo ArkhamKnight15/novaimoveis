@@ -37,13 +37,13 @@ export function Testimonials() {
             <figure key={active.id} className="min-h-[26rem] animate-page-in sm:min-h-[22rem]">
               <Quote aria-hidden="true" className="size-9 text-gold-500" strokeWidth={1} />
               <blockquote className="mt-6">
-                <p className="font-display text-display-md text-ink">“{active.highlight}”</p>
+                <p className="font-editorial text-display-md text-ink">“{active.highlight}”</p>
                 <p className="mt-6 max-w-2xl text-[0.9375rem] leading-relaxed text-graphite-500">{active.quote}</p>
               </blockquote>
               <figcaption className="mt-8 flex items-center gap-4">
                 <span
                   aria-hidden="true"
-                  className="font-display flex size-12 items-center justify-center rounded-full bg-paper text-lg text-graphite-600 ring-1 ring-ink/5"
+                  className="font-editorial flex size-12 items-center justify-center rounded-full bg-paper text-lg text-graphite-600 ring-1 ring-ink/5"
                 >
                   {getInitials(active.name)}
                 </span>

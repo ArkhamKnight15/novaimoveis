@@ -5,6 +5,8 @@ Site completo de uma imobiliária **fictícia** de alto padrão: home cinematogr
 
 **Stack:** React 19, TypeScript, Vite, Tailwind CSS v4, React Router 7, Lucide React e `tailwind-merge`.
 
+**Tipografia:** Instrument Serif (títulos de impacto), Newsreader (títulos editoriais, nomes, preços e citações), Geist (texto e interface) e Geist Mono (rótulos, índices e códigos), todas auto-hospedadas via Fontsource.
+
 ## Como executar
 
 Requer Node.js 20 ou superior.

@@ -64,7 +64,7 @@ export function About() {
             </p>
           </Reveal>
           <Reveal delay={160} className="mt-8 border-t border-line pt-6">
-            <p className="font-display text-xl italic text-ink">Marina Costa & Henrique Lobo</p>
+            <p className="font-editorial text-xl italic text-ink">Marina Costa & Henrique Lobo</p>
             <p className="mt-1 text-[0.8125rem] text-graphite-500">Fundadores da NOVA</p>
           </Reveal>
         </div>

@@ -88,7 +88,7 @@ export function Dialog({
           )}
         >
           <div className={cn(hideTitle && 'sr-only')}>
-            <h2 id={titleId} className="font-display text-2xl text-ink sm:text-3xl">
+            <h2 id={titleId} className="font-editorial text-2xl text-ink sm:text-3xl">
               {title}
             </h2>
             {description && (

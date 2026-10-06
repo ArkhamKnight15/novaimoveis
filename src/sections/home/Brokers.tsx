@@ -43,7 +43,7 @@ export function Brokers() {
                     </p>
                   </div>
                   <div className="flex flex-1 flex-col pt-6">
-                    <h3 className="font-display text-2xl">{broker.name}</h3>
+                    <h3 className="font-editorial text-2xl">{broker.name}</h3>
                     <p className="mt-1.5 text-sm text-graphite-600">{broker.specialty}</p>
                     <p className="mt-4 flex items-start gap-2 text-[0.8125rem] leading-relaxed text-graphite-500">
                       <MapPin aria-hidden="true" className="mt-0.5 size-3.5 shrink-0" strokeWidth={1.5} />

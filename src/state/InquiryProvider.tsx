@@ -33,7 +33,7 @@ function PropertySummary({ property }: { property: Property }) {
         </div>
       )}
       <div className="min-w-0">
-        <p className="font-display truncate text-lg text-ink">{property.title}</p>
+        <p className="font-editorial truncate text-lg text-ink">{property.title}</p>
         <p className="truncate text-[0.8125rem] text-graphite-500">
           {property.location.neighborhood}, {property.location.city}
         </p>
@@ -48,7 +48,7 @@ function BrokerSummary({ broker }: { broker: Broker }) {
     <div className="mb-8 flex items-center gap-4 border-y border-line py-4">
       <BrokerAvatar broker={broker} className="size-14" />
       <div>
-        <p className="font-display text-lg text-ink">{broker.name}</p>
+        <p className="font-editorial text-lg text-ink">{broker.name}</p>
         <p className="text-[0.8125rem] text-graphite-500">{broker.specialty}</p>
       </div>
     </div>

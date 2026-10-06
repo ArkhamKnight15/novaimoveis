@@ -18,7 +18,7 @@ export function BrokerCard({ broker, onMessage }: BrokerCardProps) {
       </div>
       <div className="flex flex-col">
         <p className="eyebrow text-[0.5625rem] text-gold-700">Corretor responsável</p>
-        <p className="font-display mt-3 text-2xl text-ink">{broker.name}</p>
+        <p className="font-editorial mt-3 text-2xl text-ink">{broker.name}</p>
         <p className="mt-1 text-sm text-graphite-600">{broker.specialty}</p>
         <p className="mt-3 text-[0.8125rem] leading-relaxed text-graphite-500">
           {broker.experience} anos de mercado · {broker.creci} · {broker.languages.join(', ')}

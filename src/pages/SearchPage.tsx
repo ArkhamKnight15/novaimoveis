@@ -167,7 +167,7 @@ export function SearchPage({ purpose }: { purpose?: Purpose }) {
         <aside aria-label="Filtros" className="hidden lg:block">
           <div className="sticky top-24">
             <div className="mb-6 flex items-center justify-between">
-              <h2 className="font-display text-2xl">Filtros</h2>
+              <h2 className="font-editorial text-2xl">Filtros</h2>
               {activeCount > 0 && (
                 <button
                   type="button"
@@ -228,7 +228,7 @@ export function SearchPage({ purpose }: { purpose?: Purpose }) {
 
           {status === 'error' ? (
             <div role="alert" className="mt-10 flex flex-col items-start gap-4 border-y border-line py-14">
-              <h2 className="font-display text-2xl">Não foi possível carregar os imóveis</h2>
+              <h2 className="font-editorial text-2xl">Não foi possível carregar os imóveis</h2>
               <p className="text-graphite-500">Verifique sua conexão e tente novamente.</p>
               <Button
                 variant="outline"
@@ -249,7 +249,7 @@ export function SearchPage({ purpose }: { purpose?: Purpose }) {
           ) : items.length === 0 ? (
             <div className="mt-10 flex flex-col items-center border border-dashed border-graphite-200 px-6 py-20 text-center">
               <SearchX aria-hidden="true" className="size-10 text-gold-500" strokeWidth={1} />
-              <h2 className="font-display mt-6 text-3xl">Nenhum imóvel com esses filtros</h2>
+              <h2 className="font-editorial mt-6 text-3xl">Nenhum imóvel com esses filtros</h2>
               <p className="mt-4 max-w-md text-[0.9375rem] leading-relaxed text-graphite-500">
                 Tente ampliar a faixa de preço ou remover algum filtro. Ou conte o que você procura: muitos imóveis da
                 NOVA são negociados antes mesmo de serem anunciados.
