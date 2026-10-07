@@ -26,7 +26,7 @@ export function FeaturedProperties() {
             eyebrow="Seleção NOVA"
             title={
               <>
-                Imóveis selecionados <em className="text-graphite-500">para você</em>
+                Imóveis selecionados <span className="text-graphite-500">para você</span>
               </>
             }
             description="Uma seleção de propriedades que combinam localização, arquitetura e estilo de vida."

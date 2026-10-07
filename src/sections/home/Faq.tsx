@@ -16,7 +16,7 @@ export function Faq() {
         <Reveal className="self-start lg:sticky lg:top-28 lg:col-span-4">
           <Eyebrow>Perguntas frequentes</Eyebrow>
           <h2 id="faq-title" className="font-display mt-6 text-display-lg">
-            Tudo o que você precisa saber <em className="text-graphite-500">antes de começar</em>
+            Tudo o que você precisa saber <span className="text-graphite-500">antes de começar</span>
           </h2>
           <div className="mt-10 border-t border-line pt-8">
             <p className="text-[0.9375rem] leading-relaxed text-graphite-500">

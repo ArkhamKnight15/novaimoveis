@@ -39,7 +39,7 @@ export function FinalCta() {
         <Reveal className="max-w-2xl">
           <Eyebrow tone="light">Contato</Eyebrow>
           <h2 id="cta-title" className="font-display mt-6 text-display-xl text-white">
-            Seu próximo endereço <em className="text-gold-200">começa aqui.</em>
+            Seu próximo endereço <span className="text-gold-200">começa aqui.</span>
           </h2>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-white/75">
             Conte o que você procura. Nós encontramos o imóvel certo para você.

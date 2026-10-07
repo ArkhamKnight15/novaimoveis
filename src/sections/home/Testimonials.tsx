@@ -21,7 +21,7 @@ export function Testimonials() {
         <Reveal className="lg:col-span-4">
           <Eyebrow>Depoimentos</Eyebrow>
           <h2 id="testimonials-title" className="font-display mt-6 text-display-lg">
-            Histórias de quem encontrou <em className="text-graphite-500">o seu endereço</em>
+            Histórias de quem encontrou <span className="text-graphite-500">o seu endereço</span>
           </h2>
           <div className="mt-10 flex items-center gap-5 border-t border-graphite-200 pt-8">
             <p className="font-display text-5xl font-[300] text-ink">4,9</p>

@@ -45,7 +45,7 @@ export function About() {
           <Reveal>
             <Eyebrow>Sobre a NOVA</Eyebrow>
             <h2 id="about-title" className="font-display mt-6 text-display-lg">
-              Pequena por escolha. <em className="text-graphite-500">Grande no que entrega.</em>
+              Pequena por escolha. <span className="text-graphite-500">Grande no que entrega.</span>
             </h2>
           </Reveal>
           <Reveal delay={100} className="mt-8 space-y-5 text-[0.9375rem] leading-relaxed text-graphite-500">
@@ -64,7 +64,7 @@ export function About() {
             </p>
           </Reveal>
           <Reveal delay={160} className="mt-8 border-t border-line pt-6">
-            <p className="font-editorial text-xl italic text-ink">Marina Costa & Henrique Lobo</p>
+            <p className="font-editorial text-xl text-ink">Marina Costa & Henrique Lobo</p>
             <p className="mt-1 text-[0.8125rem] text-graphite-500">Fundadores da NOVA</p>
           </Reveal>
         </div>

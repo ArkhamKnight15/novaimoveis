@@ -36,7 +36,7 @@ export function WhyNova() {
           <Reveal>
             <Eyebrow tone="light">Por que a NOVA</Eyebrow>
             <h2 id="why-title" className="font-display mt-6 text-display-lg text-white">
-              Mais do que imóveis. <em className="text-gold-200">Encontramos o seu próximo endereço.</em>
+              Mais do que imóveis. <span className="text-gold-200">Encontramos o seu próximo endereço.</span>
             </h2>
           </Reveal>
           <div className="relative mt-12 hidden aspect-[4/3] overflow-hidden bg-graphite-900 lg:block xl:aspect-[5/4]">

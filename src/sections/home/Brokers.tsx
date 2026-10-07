@@ -17,7 +17,7 @@ export function Brokers() {
           eyebrow="Especialistas"
           title={
             <>
-              Conheça nossos <em className="text-graphite-500">especialistas</em>
+              Conheça nossos <span className="text-graphite-500">especialistas</span>
             </>
           }
           description="Consultores que moram e trabalham nas regiões que atendem. Fale direto com quem conhece cada rua."

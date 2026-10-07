@@ -28,12 +28,12 @@ export function Hero() {
           </p>
           <h1
             id="hero-title"
-            className="font-display mt-7 max-w-[12ch] text-display-2xl font-[300] text-white sm:max-w-[14ch]"
+            className="font-display mt-7 max-w-[13ch] text-display-2xl font-[300] text-white sm:max-w-[18ch]"
           >
             {lines.map((line, index) => (
               <span key={line} className="block overflow-hidden pb-[0.08em]">
                 <span className="block animate-rise" style={{ animationDelay: `${120 + index * 90}ms` }}>
-                  {index === lines.length - 1 ? <em className="font-[300] text-gold-200">{line}</em> : line}
+                  {index === lines.length - 1 ? <span className="font-[300] text-gold-200">{line}</span> : line}
                 </span>
               </span>
             ))}

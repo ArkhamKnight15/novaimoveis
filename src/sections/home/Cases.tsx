@@ -21,7 +21,7 @@ export function Cases() {
             eyebrow="Cases"
             title={
               <>
-                Transformações que <em className="text-gold-200">valorizam</em>
+                Transformações que <span className="text-gold-200">valorizam</span>
               </>
             }
             description="Reforma, arquitetura e curadoria visual: arraste o controle para comparar o antes e o depois de projetos que conduzimos."

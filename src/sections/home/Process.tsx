@@ -15,7 +15,7 @@ export function Process() {
           eyebrow="Experiência NOVA"
           title={
             <>
-              Do primeiro clique <em className="text-graphite-500">às chaves na mão.</em>
+              Do primeiro clique <span className="text-graphite-500">às chaves na mão.</span>
             </>
           }
           description="Um processo claro, com um especialista dedicado do começo ao fim. Você sempre sabe em que etapa está."
